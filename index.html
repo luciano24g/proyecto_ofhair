@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbería</title>
+        <link rel="stylesheet" href="./css/styles.css">
+       
+      </head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="logo-barberia.png" alt="Logo de la barbería">
+            <h1>Nombre de la Barbería</h1>
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#conocenos">Conócenos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+        <section id="home">
+          <h1>Nombre de la Barbería</h1>
+          <p>Descripción de la barbería y los servicios que ofrece.</p>
+          <img src="imagen-barberia.jpg" alt="Interior del local de la barbería">
+          <div class="promociones">
+            <h2>Promociones</h2>
+            <ul>
+              <li>Promoción 1</li>
+              <li>Promoción 2</li>
+              <li>Promoción 3</li>
+            </ul>
+          </div>
+          <div class="horarios">
+            <h2>Horarios de Atención</h2>
+            <p>Lunes a viernes: 9:00 AM - 7:00 PM</p>
+            <p>Sábados: 10:00 AM - 5:00 PM</p>
+          </div>
+        </section>
+    
+        <section id="conocenos">
+          <h2>Conócenos</h2>
+          <p>Equipo de barberos altamente calificados y con experiencia.</p>
+          <div class="barberos">
+            <div class="barbero">
+              <img src="imagen-barbero1.jpg" alt="Foto del barbero 1">
+              <h3>Nombre del Barbero 1</h3>
+              <p>Experiencia y especialidad</p>
+            </div>
+            <div class="barbero">
+              <img src="imagen-barbero2.jpg" alt="Foto del barbero 2">
+              <h3>Nombre del Barbero 2</h3>
+              <p>Experiencia y especialidad</p>
+            </div>
+          </div>
+        </section>
+    
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+          </form>
+          <footer>
+            <div class="logo">
+              <img src="logo-barberia.png" alt="Logo de la barbería">
+              <h3>Nombre de la Barbería</h3>
+            </div>
+            <div class="contacto">
+              <h4>Contacto</h4>
+              <p>Dirección: Calle X, Ciudad</p>
+              <p>Teléfono: 123-456789</p>
+              <p>Email: info@barberia.com</p>
+            </div>
+            <div class="redes-sociales">
+              <h4>Síguenos en redes sociales</h4>
+              <ul>
+                <li><a href="#"><img src="icono-facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="icono-instagram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="icono-twitter.png" alt="Twitter"></a></li>
+              </ul>
+            </div>
+          </footer>
+          <canvas id="canvas"></canvas>
+
+          <script src="js/three.js"></script>
+          <script src="js/main.js"></script>
+          <script src="js/background.js"></script>
+          <script src="js/light.js"></script>
+          <script src="js/tijera.js"></script>
+          
+</body>
+</html>
